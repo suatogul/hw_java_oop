@@ -1,15 +1,18 @@
 # Table of Contents 
-1. [Project Description](#project-description)
-2. [Class Attributes](#class-attributes)
-2.1 [Employee](#employee)
-2.2 [Manager](#manager)
-2.3 [SoftwareDeveloper](#softwaredeveloper)
-3. [Class Methods](#class-methods)
-3.1 [Employee](#employee-1)
-3.2 [Manager](#manager-1)
-3.3 [SoftwareDeveloper](#softwaredeveloper-1)
-4. [Main Code](#main-code)
-5. [Expected Outputs](#expected-outputs)
+- [Project Description](#project-description)
+- [Class Attributes](#class-attributes)
+  * [Employee](#employee)
+  * [Manager](#manager)
+  * [SoftwareDeveloper](#softwaredeveloper)
+- [Class Methods](#class-methods)
+  * [Employee](#employee-1)
+  * [Manager](#manager-1)
+  * [SoftwareDeveloper](#softwaredeveloper-1)
+- [Main Code](#main-code)
+- [Expected Outputs](#expected-outputs)
+
+---
+
 ## Project Description
 
 This project is designed for new learners of OOP. You can fork this project and complete the missing parts according to given descriptions. After completing this project, you will learn OOP programming and its principles. 
@@ -24,8 +27,8 @@ The template of the classes and interfaces are given with descriptions. Please f
 
 ---
 
-### Class Attributes:
-#### Employee:
+## Class Attributes:
+### Employee:
 - id
 - firstName
 - lastName
@@ -33,11 +36,11 @@ The template of the classes and interfaces are given with descriptions. Please f
 - salary
 - Department
 
-#### Manager :
+### Manager:
 - all attributes of Employee class and
 - employees
 
-#### SoftwareDeveloper:
+### SoftwareDeveloper:
 - all attributes of Employee class and
 - supervisor 
 - skilss
@@ -45,19 +48,19 @@ The template of the classes and interfaces are given with descriptions. Please f
 
 ---
 
-### Class Methods: 
-#### Employee:
+## Class Methods: 
+### Employee:
 - takeABreak
 - getSalaryPayment
 
-#### Manager:
+### Manager:
 - all methods of Employee class and
 - increaseSalary
 - hireEmployee
 - fireEmployee
 - getNumberOfEmployeesSupervised
 
-#### SoftwareDeveloper:
+### SoftwareDeveloper:
 - all methods of Employee class and
 - writeCode
 - testCode
@@ -65,7 +68,7 @@ The template of the classes and interfaces are given with descriptions. Please f
 
 ---
 
-## Main Code : 
+# Main Code: 
 
 ```Java
 Manager manager1 = new Manager(1, "John", "Murphy", 45, 10000, "Test");
@@ -116,7 +119,7 @@ manager3.getEmployees();
 
 ---
 
-## Expected Outputs :
+# Expected Outputs:
 
 ```
 ###########################################################
