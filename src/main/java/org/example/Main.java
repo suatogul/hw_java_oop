@@ -45,11 +45,16 @@ public class Main {
         manager2.getEmployees();
         manager2.getSalaryPayment();
         manager2.takeABreak();
-//        manager2.fireEmployee(newSoftwareDeveloper);
-//        manager2.getNumberOfEmployeesSupervised();
-//        manager2.getEmployees();
+        manager2.fireEmployee(newSoftwareDeveloper);
+        manager2.getNumberOfEmployeesSupervised();
+        manager2.getEmployees();
         System.out.println("###########################################################");
         manager3.getNumberOfEmployeesSupervised();
+        manager3.hireEmployee(newEmployee);
+        manager3.getNumberOfEmployeesSupervised();
+        manager3.hireEmployee(newEmployee2);
+        manager3.getNumberOfEmployeesSupervised();
+        manager3.getEmployees();
 
 /*
         System.out.println("###########################################################");

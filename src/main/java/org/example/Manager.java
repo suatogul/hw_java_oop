@@ -14,14 +14,12 @@ public class Manager extends Employee implements IManager{
     }
 
     @Override
-    public void fireEmployee() {
-
+    public void fireEmployee(Employee emp) {
+        int position=employeesList.indexOf(emp);
+        employeesList.remove(position);
+        System.out.println(emp.getFirstName()+" is fired!" );
     }
 
-    @Override
-    public void hireEmployee() {
-
-    }
 
     @Override
     public void hireEmployee(Employee emp) {
@@ -29,19 +27,12 @@ public class Manager extends Employee implements IManager{
         this.employeesList.add(emp);
         System.out.println(emp.getFirstName()+" is hired.");
     }
-
-    @Override
-    public void increaseSalary() {
-
-    }
-
     @Override
     public void increaseSalary(Employee emp, double amount) {
      emp.setSalary(amount);
         System.out.print(emp.getFirstName()+" "+emp.getLastName()+" salary is increased "+amount+" CHF.");
         System.out.println(" New salary : "+emp.getSalary());
     }
-
 
     public void getEmployees() {
         System.out.println(this.getFirstName() +" "+ this.getLastName() + "'s employees : ");
