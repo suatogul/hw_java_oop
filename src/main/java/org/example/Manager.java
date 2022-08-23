@@ -7,13 +7,27 @@ public class Manager extends Employee implements IManager{
         this.numberOfEmployeesSupervised=0;
     }
 
-    public int getNumberOfEmployeesSupervised() {
-        return numberOfEmployeesSupervised;
+    @Override
+    public void getNumberOfEmployeesSupervised() {
+
     }
 
-    public void setNumberOfEmployeesSupervised(int numberOfEmployeesSupervised) {
-        this.numberOfEmployeesSupervised = numberOfEmployeesSupervised;
+    @Override
+    public void fireEmployee() {
+
     }
+
+    @Override
+    public void hireEmployee() {
+
+    }
+
+    @Override
+    public void increaseSalary() {
+
+    }
+
+
     // A Manager has numberOfEmployeesSupervised attribute additionally.
     // Please implement necessary methods to get and set these attributes of Manager
 

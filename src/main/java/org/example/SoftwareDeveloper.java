@@ -2,11 +2,11 @@ package org.example;
 
 
 public class SoftwareDeveloper extends Employee implements ISoftwareDeveloper{
-    private String supervisor;
+    private Manager supervisor;
     private String skills;
     private int experience;
 
-    public SoftwareDeveloper(int pId,String pFirstName,String pLastName,int pAge,double pSalary,String pDepartment,String pSupervisor,String pSkills,int pExperience){
+    public SoftwareDeveloper(int pId,String pFirstName,String pLastName,int pAge,double pSalary,String pDepartment,Manager pSupervisor,String pSkills,int pExperience){
         super(pId,pFirstName,pLastName,pAge,pSalary,pDepartment);
         this.supervisor=pSupervisor;
         this.skills=pSkills;
@@ -16,11 +16,11 @@ public class SoftwareDeveloper extends Employee implements ISoftwareDeveloper{
     // Please implement necessary methods to get and set these attributes of Manager
 
 //Getters & Setters
-    public String getSupervisor() {
+    public Manager getSupervisor() {
         return supervisor;
     }
 
-    public void setSupervisor(String supervisor) {
+    public void setSupervisor(Manager supervisor) {
         this.supervisor = supervisor;
     }
 

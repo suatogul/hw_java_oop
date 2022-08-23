@@ -70,4 +70,17 @@ public class Employee implements IEmployee{
     public void setDepartment(String department) {
         this.department = department;
     }
+
+//implemented methods
+    @Override
+    public void getSalaryPayment() {
+        System.out.println(this.firstName+" "+this.lastName+" got "+this.salary+"CHF salary payment!");
+
+    }
+
+    @Override
+    public void takeABreak() {
+        System.out.println(this.firstName+" took a break");
+
+    }
 }
