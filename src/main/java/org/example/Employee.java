@@ -59,8 +59,8 @@ public class Employee implements IEmployee{
         return salary;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setSalary(double pSalary) {
+        this.salary = this.salary+pSalary;
     }
 
     public String getDepartment() {

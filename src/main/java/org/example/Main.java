@@ -27,12 +27,30 @@ public class Main {
         Employee newEmployee = new Employee(3, "Max", "Adams", 34, 6000, "Unknown");
         Employee newEmployee2 = new Employee(3, "Mario", "Trix", 30, 6000, "Unknown");
 
-        System.out.println("employee1 name " + newEmployee.getFirstName());
-        System.out.println("softwareDev name " + softwareDeveloper1.getFirstName());
-        System.out.println("manager1 name " + manager1.getFirstName());
+        manager1.getNumberOfEmployeesSupervised();
+        manager1.hireEmployee(newSoftwareDeveloper);
+        manager1.getNumberOfEmployeesSupervised();
+        System.out.println("###########################################################");
+        System.out.println("SoftDev 1 salary : "+ softwareDeveloper1.getSalary());
+        manager1.increaseSalary(softwareDeveloper1, 500);
+        softwareDeveloper1.getSalaryPayment();
+        softwareDeveloper2.takeABreak();
+        System.out.println("###########################################################");
+        System.out.println(softwareDeveloper1.getSkills());
+        System.out.println(softwareDeveloper2.getDepartment());
+        System.out.println("###########################################################");
+        manager2.getNumberOfEmployeesSupervised();
+        manager2.hireEmployee(newSoftwareDeveloper);
+        manager2.getNumberOfEmployeesSupervised();
+        manager2.getEmployees();
+        manager2.getSalaryPayment();
         manager2.takeABreak();
-        manager1.getSalaryPayment();
-        softwareDeveloper2.getSalaryPayment();
+//        manager2.fireEmployee(newSoftwareDeveloper);
+//        manager2.getNumberOfEmployeesSupervised();
+//        manager2.getEmployees();
+        System.out.println("###########################################################");
+        manager3.getNumberOfEmployeesSupervised();
+
 /*
         System.out.println("###########################################################");
         manager1.getNumberOfEmployeesSupervised();
