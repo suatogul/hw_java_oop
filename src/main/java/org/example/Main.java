@@ -27,36 +27,6 @@ public class Main {
         Employee newEmployee = new Employee(3, "Max", "Adams", 34, 6000, "Unknown");
         Employee newEmployee2 = new Employee(3, "Mario", "Trix", 30, 6000, "Unknown");
 
-        manager1.getNumberOfEmployeesSupervised();
-        manager1.hireEmployee(newSoftwareDeveloper);
-        manager1.getNumberOfEmployeesSupervised();
-        System.out.println("###########################################################");
-        System.out.println("SoftDev 1 salary : "+ softwareDeveloper1.getSalary());
-        manager1.increaseSalary(softwareDeveloper1, 500);
-        softwareDeveloper1.getSalaryPayment();
-        softwareDeveloper2.takeABreak();
-        System.out.println("###########################################################");
-        System.out.println(softwareDeveloper1.getSkills());
-        System.out.println(softwareDeveloper2.getDepartment());
-        System.out.println("###########################################################");
-        manager2.getNumberOfEmployeesSupervised();
-        manager2.hireEmployee(newSoftwareDeveloper);
-        manager2.getNumberOfEmployeesSupervised();
-        manager2.getEmployees();
-        manager2.getSalaryPayment();
-        manager2.takeABreak();
-        manager2.fireEmployee(newSoftwareDeveloper);
-        manager2.getNumberOfEmployeesSupervised();
-        manager2.getEmployees();
-        System.out.println("###########################################################");
-        manager3.getNumberOfEmployeesSupervised();
-        manager3.hireEmployee(newEmployee);
-        manager3.getNumberOfEmployeesSupervised();
-        manager3.hireEmployee(newEmployee2);
-        manager3.getNumberOfEmployeesSupervised();
-        manager3.getEmployees();
-
-/*
         System.out.println("###########################################################");
         manager1.getNumberOfEmployeesSupervised();
         manager1.hireEmployee(newSoftwareDeveloper);
@@ -90,7 +60,6 @@ public class Main {
         manager3.hireEmployee(newEmployee2);
         manager3.getNumberOfEmployeesSupervised();
         manager3.getEmployees();
-        */
 
     }
 }
