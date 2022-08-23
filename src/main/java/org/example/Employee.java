@@ -20,8 +20,6 @@ public class Employee implements IEmployee{
        this.department=pDepartment;
    }
 
-
-
     //Getters & Setters
     public int getId() {
         return id;
