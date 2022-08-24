@@ -4,9 +4,8 @@ public class Main {
     public static void main(String[] args) {
         // All methods should only print the name of the employee (Manager or SoftDev) and the name of the method.
         // (i.e) getSalaryPayment() => Ali got 5000 CHF salary payment.
-
         // Manager(id, firstName, lastName, age, salary, department)
-        /*
+        // Test
         Manager manager1 = new Manager(1, "John", "Murphy", 45, 10000, "Test");
         Manager manager2 = new Manager(2, "Mark", "Rylie", 51, 10200, "Development");
         Manager manager3 = new Manager(3, "Maria", "Swift", 42, 10500, "HR");
@@ -51,9 +50,6 @@ public class Main {
         manager3.hireEmployee(newEmployee2);
         manager3.getNumberOfEmployeesSupervised();
         manager3.getEmployees();
-        */
-
-        */
 
     }
 }
